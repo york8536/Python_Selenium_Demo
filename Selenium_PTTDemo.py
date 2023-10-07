@@ -5,6 +5,7 @@ from selenium.webdriver.common.by import By
 import time
 
 # -------------------------------------------------------------------設定Chrome Driver 的執行檔案路徑
+# Chrome 114版載點 : https://google-chrome.cn.uptodown.com/windows/download/104298869
 options = Options()
 options.executable_path = "D:\Selenium\chromedriver.exe"
 options.add_argument("--auto-open-devtools-for-tabs")  # 開啟F12
